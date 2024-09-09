@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const clipboardIcon = {
-    copy: "/src/images/clipboard.svg",
-    check: "/src/images/check.svg",
+    copy: "./images/clipboard.svg",
+    check: "./images/check.svg",
 };
 
 export const copyToClipboard = (generatedData) => {

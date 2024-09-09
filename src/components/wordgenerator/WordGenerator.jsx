@@ -9,8 +9,8 @@ const parameter = {
 };
 
 const clipboardIcon = {
-    copy: "/src/images/clipboard.svg",
-    check: "/src/images/check.svg",
+    copy: "./images/clipboard.svg",
+    check: "./images/check.svg",
 };
 
 const WordGenerator = () => {

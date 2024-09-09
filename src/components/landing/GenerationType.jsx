@@ -2,10 +2,10 @@ const GenerationType = () => {
     return (
         <section class="menu__container container" id="generate">
             <h2 class="landing__h2">Select Generation Type</h2>
-            <a href="/random-number-generator">
+            <a href="#/random-number-generator">
                 <div class="gen__container">
                     <div class="img__container">
-                        <img src="./src/images/menu_num.png" alt="" class="gen_img" />
+                        <img src="./images/menu_num.png" alt="" class="gen_img" />
                     </div>
                     <div class="gen-text__container">
                         <h3 class="gen__title clickable__title">Random Number Generator</h3>
@@ -30,10 +30,10 @@ const GenerationType = () => {
                 </div>
             </a>
 
-            <a href="/random-word-generator">
+            <a href="#/random-word-generator">
                 <div class="gen__container">
                     <div class="img__container">
-                        <img src="./src/images/menu_text.png" alt="" class="gen_img" />
+                        <img src="./images/menu_text.png" alt="" class="gen_img" />
                     </div>
                     <div class="gen-text__container">
                         <h3 class="gen__title clickable__title">Random Word Generator</h3>
