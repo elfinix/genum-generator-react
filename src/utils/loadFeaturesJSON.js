@@ -1,6 +1,6 @@
 export async function loadFeaturesJSON(pageType) {
     try {
-        const response = await fetch(`src/json/${pageType}-features.json`);
+        const response = await fetch(`./json/${pageType}-features.json`);
         const data = await response.json();
         let contents = data.contents;
 
